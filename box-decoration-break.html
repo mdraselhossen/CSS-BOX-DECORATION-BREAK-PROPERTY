@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>box decoration break property</title>
+	<style type="text/css">
+		.span1{
+			border:5px solid red;
+			border-radius: 15px;
+			line-height: 2;
+			padding: 5px;
+			font-size: 24px;
+			box-decoration-break: clone;
+			-webkit-box-decoration-break: clone;
+		}
+		.span2{
+			margin-top: 100px;
+			border:5px solid red;
+			border-radius: 15px;
+			line-height: 2;
+			padding-left:50px;
+			font-size: 24px;
+		}
+	</style>
+</head>
+<body>
+	<span class="span2">Hello <br>everyone welcome <br>to my youtube<br>channel</span><br>
+	<span class="span1">Hello <br>everyone welcome <br>to my youtube<br>channel</span>
+	
+
+</body>
+</html>
